@@ -11,7 +11,7 @@
 		"nagios": "/usr/local/bin/node node_modules/mocha/bin/mocha --exit --ui bdd --reporter tests/api/nagios-reporter.js tests/api/index.js"
 	},
 	"dependencies": {
-		"minimist": "^1.1.0",
+		"minimist": "^1.2.3",
 		"protobufjs": "~6.8.3",
 		"redis": "^2.0.0",
 		"winston": "^2.0.0",
